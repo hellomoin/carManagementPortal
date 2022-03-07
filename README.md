@@ -14,11 +14,11 @@
 
 # Available Commands for the Server
 Before running the server, just configure mongodb database in respective `.env.[developement|production|test].local` file.
-* Run the Server in production mode : npm run start
-* Run the Server in development mode : npm run dev
-* Run all unit-tests : npm test
-* Check for linting errors : npm run lint
-* Fix for linting : npm run lint:fix
+* Run the Server in production mode : `npm run start`
+* Run the Server in development mode : `npm run dev`
+* Run all unit-tests : `npm test`
+* Check for linting errors : `npm run lint`
+* Fix for linting : `npm run lint:fix`
 
 ### 🐳 Docker :: Container Platform
 
