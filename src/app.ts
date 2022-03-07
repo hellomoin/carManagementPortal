@@ -37,7 +37,7 @@ class App {
     this.app.listen(this.port, () => {
       logger.info(`=================================`);
       logger.info(`======= ENV: ${this.env} =======`);
-      logger.info(`🚀 App listening on the port ${this.port}`);
+      logger.info(`Car Management portal listening on the port ${this.port}`);
       logger.info(`=================================`);
     });
   }
@@ -75,13 +75,13 @@ class App {
     }
 
     connect(dbConnection.url, dbConnection.options as ConnectOptions);
-    /*  
-    connect(dbConnection.url, dbConnection.options as ConnectOptions).then((db) => {
-      logger.info("Successfully connected to database: \'" + dbConnection.url + "\'");
-    }).catch((error) => {
-      logger.error("Failed to connect to database: \'" + dbConnection.url + "\'");
-    });    
-  */
+
+//    connect(dbConnection.url, dbConnection.options as ConnectOptions).then((db) => {
+//      logger.info("Successfully connected to database: \'" + dbConnection.url + "\'");
+//    }).catch((error) => {
+//      logger.error("Failed to connect to database: \'" + dbConnection.url + "\'");
+//    });    
+
   }
 
   private initializeSwagger(controllers: Function[]) {
